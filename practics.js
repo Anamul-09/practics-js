@@ -1,7 +1,8 @@
+var today = new Date();
+var day = today.getDay();
+ var month = today.getMonth();
+ var year = today.getFullYear()
+   var daylist =["sunday","mon","tuess","wedness","thurs","fri","satur"];
+  var monthList = ["january","february","March","April","May","June","jully","August","september","October","November","December"]
 
-function addNumbers(x,y,z,a){
-    return x + y + z +a;
-}
-
-let numbers = [1,2,3,4]
-console.log(addNumbers(...numbers));
+console.log("today is " +daylist[day] + " and month of " + monthList[month] + " year of " + year)
